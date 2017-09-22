@@ -1,7 +1,8 @@
-# `promiseser`
+`promiseser`
 
 Serialized promises, no dependencies or other baggage. Catches errors and returns results in the way you expect.
 
+#### Usage
 ```
 const promiseser = require('.');
 const promiseFns = Array(15).fill().map((_, i) => () => new Promise((accept, reject) => {
