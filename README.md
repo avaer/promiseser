@@ -1,5 +1,3 @@
-`promiseser`
-
 Serialized promises, no dependencies or other baggage. Catches errors and returns results in the way you expect.
 
 #### Usage
